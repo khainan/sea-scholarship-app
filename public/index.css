@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'AEH';
+    src: local('AEH'), url(Font/AEH.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir'), url(Font/Avenir\ LT\ 95\ Black.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Avenir-Roman';
+    src: local('Avenir-Roman'), url(Font/AvenirLTStd-Roman.otf) format('otf');
+}
