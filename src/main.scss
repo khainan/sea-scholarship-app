@@ -27,6 +27,7 @@ h3 {
 h4 {
     color: $navy;
     text-align: initial;
+    height: 40px;
 }
 h5 {
     color: $black;
@@ -247,7 +248,7 @@ h5 {
         border: 2px solid $text-grey;
         width: 48%;
         position: absolute;
-        top: 55%;
+        top: 60%;
     }
 }
 .footer {
@@ -407,7 +408,50 @@ h5 {
     }
 }
 
-/* ----------- 1200px + ----------- */
+/* ----------- 1600px + ----------- */
 @media screen 
-  and (min-width: 1201px){
+  and (min-width: 1601px){
+    p, li, div, span {
+        font-size: 18px;
+    }
+    strong {
+        color: $black;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    h4 {
+        font-size: 24px;
+        height: 70px;
+    }
+    h5 {
+        font-size: 20px        
+    }
+    .wrapper-component-with-img .title, .wrapper-component-with-img .title-center {
+        font-size: 68px;
+    }
+    .wrapper-component-with-img .graduate-img {
+        max-width: 550px;
+    }
+    .wrapper-component-with-img .content {
+        width: 800px;
+    }
+    .timeline .timeline-content {
+        width: 350px;
+        height: 400px;
+    }
+    .timeline .line {
+        width: 70%;
+        top: 54%;
+    }
+    .university img, .testimoni img {
+        width: 300px;
+        height: 300px;
+    }
+    .wrapper-story {
+        width: 500px;
+    }
+    .left-button , .right-button {
+        top: 50%;
+    }
 }
