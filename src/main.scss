@@ -12,6 +12,7 @@ p, li, div, span {
     font-size: 14px;
     color: $text-grey;
     margin: 0px;
+    text-align: justify;
 }
 strong {
     color: $black;
@@ -25,6 +26,7 @@ h3 {
 }
 h4 {
     color: $navy;
+    text-align: initial;
 }
 h5 {
     color: $black;
@@ -100,6 +102,7 @@ h5 {
         justify-content: center;
     }
     .title, .title-center {
+        text-align: initial;
         color: $white;
         font-size: 48px;
         margin-top: 0px;
@@ -242,7 +245,7 @@ h5 {
     }
     .line {
         border: 2px solid $text-grey;
-        width: 50%;
+        width: 48%;
         position: absolute;
         top: 55%;
     }
@@ -296,10 +299,14 @@ h5 {
         width: 200px;
         .title {
             font-size: 20px;
+            
         }
         .content-text {
             font-size: 8px;
         }
+    }
+    .program-card {
+        width: 330px;
     }
     .university img, .testimoni img {
         width: 120px;
